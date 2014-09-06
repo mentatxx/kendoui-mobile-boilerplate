@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <!--<link rel="stylesheet" type="text/css" href="bower_components/kendo-ui/styles/kendo.common.min.css">-->
+  <link rel="stylesheet" type="text/css" href="css/kendo.mobile.all.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+  <div id="splash-view" class="splash-view" data-role="view">
+      <div class="loader">Loading</div>
+  </div>
+
+  <div data-role="layout" data-id="mobile-tabstrip">
+      <header data-role="header">
+          <div data-role="navbar">
+              <!--<a class="nav-button" data-align="left" data-role="backbutton">Back</a>-->
+              <span data-role="view-title"></span>
+              <a data-align="right" data-role="button" class="nav-button" href="#/">Index</a>
+          </div>
+      </header>
+
+      <p>TabStrip</p>
+
+      <div data-role="footer">
+          <div data-role="tabstrip">
+              <a data-icon="contacts" data-role="button">Profile</a>
+              <a data-icon="history" data-role="button">Sales</a>
+              <a data-icon="favorites" data-role="button">Rating</a>
+              <a data-icon="settings" data-role="button">Settings</a>
+          </div>
+      </div>
+  </div>
+  <script src="bower_components/requirejs/require.js" data-main="js/main.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+</body>
+</html>

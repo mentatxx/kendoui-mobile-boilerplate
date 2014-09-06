@@ -1,0 +1,21 @@
+{
+  "name": "kendoui-mobile-boilerplate",
+  "version": "0.0.1",
+  "description": "kendoui-mobile-boilerplate\r ==========================",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mentatxx/kendoui-mobile-boilerplate.git"
+  },
+  "author": "Alexey Petushkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mentatxx/kendoui-mobile-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mentatxx/kendoui-mobile-boilerplate",
+  "dependencies": {
+    "less": "^1.7.5"
+  }
+}

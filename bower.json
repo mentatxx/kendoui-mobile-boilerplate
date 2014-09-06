@@ -1,0 +1,10 @@
+{
+  "name": "Sample Kendo UI mobile application",
+  "private": true,
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "requirejs-text": "~2.0.12", 
+    "kendo-ui": "~2014.2.716"
+  },
+  "devDependencies": {}
+}
