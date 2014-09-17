@@ -1,6 +1,6 @@
 {
   "name": "generator-kendoui-mobile-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kendo UI mobile boilerplate",
   "keywords": [
     "yeoman-generator"
