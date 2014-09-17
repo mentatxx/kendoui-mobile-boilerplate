@@ -1,4 +1,2 @@
-.idea
-node_modules
-www/bower_components
-test/bower_components
+node_modules/
+.idea/

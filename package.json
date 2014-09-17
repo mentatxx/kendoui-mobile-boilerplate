@@ -1,10 +1,14 @@
 {
-  "name": "kendoui-mobile-boilerplate",
+  "name": "generator-kendoui-mobile-boilerplate",
   "version": "0.0.1",
-  "description": "kendoui-mobile-boilerplate\r ==========================",
+  "description": "Kendo UI mobile boilerplate",
+  "keywords": [
+    "yeoman-generator"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "index": "app/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mentatxx/kendoui-mobile-boilerplate.git"
@@ -16,6 +20,6 @@
   },
   "homepage": "https://github.com/mentatxx/kendoui-mobile-boilerplate",
   "dependencies": {
-    "less": "^1.7.5"
+    "yeoman-generator": "^0.17.3"
   }
 }
